@@ -8,13 +8,13 @@
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/target/debug/hello.exe",
+            "program": "${workspaceRoot}/target/debug/rosalind.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
+            "preLaunchTask": "rust: cargo build",
             "externalConsole": true
         }
     ]
-
 }
