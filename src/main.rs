@@ -5,13 +5,14 @@ use std::io::stdout;
 use std::io::Write;
 
 mod dna;
+mod revc;
 mod rna;
 
 fn main() {
     let input: Vec<u8> =
-        fs::read("input/rosalind_rna.txt").expect("Should have been able to read the file");
+        fs::read("input/rosalind_revc.txt").expect("Should have been able to read the file");
 
-    let result = rna::solve_with_for_inplace(input);
+    let result = revc::solve_in_place(input);
 
     stdout()
         .write_all(&result)
