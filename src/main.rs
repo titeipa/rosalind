@@ -5,6 +5,7 @@ use std::io::stdout;
 use std::io::Write;
 
 mod dna;
+mod fib;
 mod iprb;
 mod revc;
 mod rna;
