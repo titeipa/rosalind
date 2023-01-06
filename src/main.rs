@@ -6,9 +6,11 @@ use std::io::Write;
 
 mod dna;
 mod fib;
+mod hamm;
 mod iprb;
 mod revc;
 mod rna;
+mod utils;
 
 fn main() {
     let input: Vec<u8> =
