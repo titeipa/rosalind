@@ -6,6 +6,7 @@ use std::io::Write;
 
 mod dna;
 mod fib;
+mod gc;
 mod hamm;
 mod iprb;
 mod revc;
